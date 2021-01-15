@@ -4,6 +4,10 @@
     justify-content: space-between;
     width: 80%;
 
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+
     .menu__card {
         width: 40%;
 
@@ -20,6 +24,10 @@
     justify-content: space-between;
     width: 80%;
 
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+
     .menu__card {
         width: 40%;
 
@@ -28,4 +36,12 @@
             justify-content: space-between;
         }
     }
+}
+
+.menu__image {
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 5%;
+    margin-bottom: -12%;
+    z-index: 1;
 }
