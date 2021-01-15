@@ -1,12 +1,8 @@
-.container h2 { 
-    font-size: 3em;
-    padding-left: 5%;
-}
-
 .menu__top { 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 80%;
     .menu__card {
         width: 40%;
         .menu__item { 
@@ -19,8 +15,9 @@
 .menu__bottom { 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    .menu__card {
+    justify-content: space-between;
+    width: 80%;
+    .menu__card { 
         width: 40%;
         .menu__item { 
             display: flex;
@@ -28,6 +25,7 @@
         }
     }
 }
+
 
 .container img { 
     width: 90%;
