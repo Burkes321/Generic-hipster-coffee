@@ -1,12 +1,8 @@
-// .container h2 { 
-//     font-size: 3em;
-//     padding-left: 5%;
-// }
-
 .menu__top {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 80%;
 
     .menu__card {
         width: 40%;
@@ -21,7 +17,8 @@
 .menu__bottom {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 80%;
 
     .menu__card {
         width: 40%;
@@ -33,9 +30,10 @@
     }
 }
 
-// .container img {
-//     width: 90%;
-//     padding-left: 5%;
-//     padding-top: 5%;
-//     margin-bottom: -1%;
-// }
+
+.container img {
+    width: 90%;
+    padding-left: 5%;
+    padding-top: 5%;
+    margin-bottom: -1%;
+}
