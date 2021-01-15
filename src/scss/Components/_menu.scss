@@ -1,44 +1,41 @@
-.container h2 { 
-    font-size: 3em;
-    padding-left: 5%;
-}
+// .container h2 { 
+//     font-size: 3em;
+//     padding-left: 5%;
+// }
 
-.menu__top { 
+.menu__top {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
     .menu__card {
         width: 40%;
-        .menu__item { 
+
+        .menu__item {
             display: flex;
             justify-content: space-between;
         }
     }
 }
 
-.menu__bottom { 
+.menu__bottom {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
     .menu__card {
         width: 40%;
-        .menu__item { 
+
+        .menu__item {
             display: flex;
             justify-content: space-between;
         }
     }
 }
 
-.container img { 
-    width: 90%;
-    padding-left: 5%;
-    padding-top: 5%;
-    margin-bottom: -1%;
-}
-
-
-
-
-
-
-
+// .container img {
+//     width: 90%;
+//     padding-left: 5%;
+//     padding-top: 5%;
+//     margin-bottom: -1%;
+// }

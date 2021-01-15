@@ -1,13 +1,16 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex: 1;
+  // flex: 1;
   width: 90%;
 
   .homepage img {
     width: 100%;
+
+
+
 
   }
 }
@@ -15,16 +18,30 @@
 .contact {
   display: flex;
   justify-content: space-between;
-  height: 8em;
-
+  padding: 0 0 2em 0;
+  line-height: 1.25em;
 
   div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: space-between;
     text-align: left;
-    // padding: ;
-    width: 33.3%;
+    width: 25%;
+    padding: 1em 0;
 
+
+
+  }
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .map {
+    margin-bottom: -3em;
+    z-index: 1;
   }
 }
