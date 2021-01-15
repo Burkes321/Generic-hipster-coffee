@@ -3,7 +3,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 80%;
-
+    @media (max-width: 768px) { 
+        flex-direction: column;
+    }
     .menu__card {
         width: 40%;
 
@@ -19,7 +21,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 80%;
-
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
     .menu__card {
         width: 40%;
 
@@ -31,7 +35,7 @@
 }
 
 
-.container img {
+.menu__image {
     width: 90%;
     padding-left: 5%;
     padding-top: 5%;
