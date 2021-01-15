@@ -1,0 +1,29 @@
+// $dark--grey: #343A40;
+// $white: #FFFFFF;
+// $light--grey:#F8F9FA;
+// $blue: #1F87D1;
+// $grey: #F0F1F2;
+
+
+.nav__bar {
+  background-color: $light--grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 8rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+
+  .nav__logo {
+    width: 100px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $dark--grey;
+    margin: 0 1em;
+  }
+}
