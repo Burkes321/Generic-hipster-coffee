@@ -6,10 +6,16 @@
 
     @media (max-width: 768px) {
         flex-direction: column;
+        align-items: space-between;
     }
 
     .menu__card {
-        width: 40%;
+        width: 30%;
+
+        @media (max-width: 768px) {
+            width: 100%;
+
+        }
 
         .menu__item {
             display: flex;
@@ -37,19 +43,21 @@
         }
     }
 
-    <<<<<<< HEAD
-}
 
-=======<<<<<<< HEAD
 }
 
 
->>>>>>>39b785ea83a4e8367ec74e511fe2f2d8223e8604 .menu__image {
+
+
+.menu__image {
     width: 90%;
     padding-left: 5%;
     padding-top: 5%;
-    <<<<<<< HEAD margin-bottom: -12%;
+    margin-bottom: -12%;
     z-index: 1;
-    =======margin-bottom: -1%;
-    =======>>>>>>>dfd5ffbb1858a58873b93a2b3d74ea4ad2bedefa>>>>>>>39b785ea83a4e8367ec74e511fe2f2d8223e8604
+
+    @media (max-width: 768px) {
+        margin-bottom: -25%;
+
+    }
 }

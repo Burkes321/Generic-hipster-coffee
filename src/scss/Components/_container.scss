@@ -18,6 +18,12 @@
   padding: 0 0 2em 0;
   line-height: 1.5em;
 
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
   div {
     display: flex;
     flex-direction: column;
@@ -27,7 +33,9 @@
     width: 25%;
     padding: 1em 0;
 
-
+    @media (max-width: 768px) {
+      width: 100%;
+    }
   }
 
 
@@ -39,7 +47,11 @@
   justify-content: space-between;
 
   .map {
-    margin-bottom: -3em;
+    margin-bottom: -15%;
     z-index: 1;
+
+    @media (max-width: 768px) {
+      margin-bottom: -35%;
+    }
   }
 }
