@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  width: 90%;
+
+  .homepage img {
+    width: 100%;
+
+  }
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  height: 8em;
+
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    // padding: ;
+    width: 33.3%;
+
+  }
+}
