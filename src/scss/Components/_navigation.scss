@@ -25,4 +25,9 @@
     color: $dark--grey;
     margin: 0 1em;
   }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: 12rem;
+  }
 }
